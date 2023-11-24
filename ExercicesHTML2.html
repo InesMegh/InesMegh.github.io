@@ -2,16 +2,33 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Formulaire_Test</title>
+    <title>Formulaire d'inscription</title>
+    <style>
+        body{
+            background-color: lavender;
+             }
+ 
+        form{
+            color:palevioletred
+        }
+
+    h1{
+        color:palevioletred
+    }
+
+    h2{
+        color:palevioletred
+    }
+
+    button{
+        color:palevioletred
+    }
+</style>
 </head>
-    <h1>Contactez-moi</h1>
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <title>Formulaire d'inscription</title>
-    </head>
+
     <body>
-    
+
+    <h1>Contactez-moi</h1>
     <h2>Formulaire d'inscription</h2>
     
     <form action="/submit_form" method="post">
@@ -24,7 +41,7 @@
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" required><br>
     
-            <label for="text">Message:</label><br>
+            <label for="text"> Message:</label><br>
             <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br>
     
             <button type="submit">S'inscrire</button>
