@@ -1,0 +1,31 @@
+.premLettreBleu::first-letter {
+    color:aqua
+
+}
+
+
+#Titre {color: darkblue;
+        font-size: 30px; 
+        text-decoration:underline;
+        font-style: italic;
+}
+
+
+li{
+    color:palevioletred
+   
+}
+
+h2 {
+    color: darkblue;
+    
+}
+
+p strong:first-of-type {
+    color: blueviolet;
+   
+}
+
+body {
+    background-color:lavenderblush
+}
